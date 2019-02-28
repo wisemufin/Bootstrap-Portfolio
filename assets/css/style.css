@@ -1,0 +1,57 @@
+body {
+    background-image: url(../images/white-waves.png)
+}
+
+.h1, h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    margin-left: 5%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+}
+
+#brand {
+    color: white;
+    font-size: 32px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+    background-color: white;
+}
+
+.nav-item {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 0 20px;
+}
+
+#navbarNav {
+    margin-right: 5%;
+}
+
+/* Main Section Content */
+#spacer {
+    padding: 10px 0;
+}
+
+#primary-content {
+    background-color: white;
+    padding: 2% 5%;
+}
+
+.body-header {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #DEDEDE;
+    margin: 20px 0;
+}
