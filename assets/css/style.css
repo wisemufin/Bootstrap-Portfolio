@@ -37,7 +37,11 @@ body {
 }
 
 #navbarNav {
-    margin-right: 5%;
+    /* margin-right: 5%; */
+}
+
+.navbar-toggler {
+    margin-right: 3%;
 }
 
 /* Main Section Content */
@@ -61,6 +65,10 @@ body {
     padding-bottom: 3%;
     border-bottom: 3px solid #DEDEDE;
     margin: 10px 0;
+}
+
+.navbar-nav {
+    text-align: right;
 }
 
 /* Footer Styling */
