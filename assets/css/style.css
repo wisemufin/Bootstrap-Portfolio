@@ -70,7 +70,7 @@ body > .container-fluid {
   flex: 1 0 auto;
 }
 
-.container-fluid > .col-md-12 {
+.container-fluid > .col-md-10 {
   background-color: white;
   padding: 25px;
   margin: 0 auto;
