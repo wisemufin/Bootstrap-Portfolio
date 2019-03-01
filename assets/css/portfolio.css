@@ -1,0 +1,37 @@
+.grid-images {
+  background-color: white;
+  padding: 2% 5%;
+}
+
+.grid-images img {
+  width: 100%;
+  position: relative;
+}
+
+#hangman {
+  background-image: url(../images/abstract-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+#chess {
+  background-image: url(../images/abstract-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.img-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 50%;
+  padding: 10px 0;
+  background-color: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.image-row {
+  margin-bottom: 20px;
+}
