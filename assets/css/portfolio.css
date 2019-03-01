@@ -23,3 +23,8 @@
 .image-row {
   margin-bottom: 20px;
 }
+
+.frame {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
