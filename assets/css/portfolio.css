@@ -1,4 +1,4 @@
-.grid-images {
+.grid-images, .body-section {
   background-color: white;
   padding: 2% 5%;
 }
@@ -13,9 +13,9 @@
   display: flex;
   justify-content: center;
   color: white;
-  margin-top: -25%;
+  margin-top: -20%;
   margin-bottom: 50px;
-  padding: 5px 0;
+  padding: 15px 0;
   background-color: #4aaaa5;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }

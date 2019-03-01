@@ -70,7 +70,7 @@ body > .container-fluid {
   flex: 1 0 auto;
 }
 
-.container-fluid > .col-md-10 {
+.container-fluid > .row > .body-section {
   background-color: white;
   padding: 25px;
   margin: 0 auto;
@@ -78,12 +78,8 @@ body > .container-fluid {
   height: 100%; */
 }
 
-.container-fluid > .col-md-12 {
-  background-color: white;
-  padding: 25px;
+.margin-adjustment {
   margin: 0 auto;
-  /* flex: 1 0 auto;
-  height: 100%; */
 }
 
 
