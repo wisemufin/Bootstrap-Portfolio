@@ -8,26 +8,14 @@
   position: relative;
 }
 
-#hangman {
-  background-image: url(../images/abstract-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-
-#chess {
-  background-image: url(../images/abstract-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-
-.img-text {
+.image-text {
+  position: relative;
   display: flex;
   justify-content: center;
   color: white;
-  margin-top: 50%;
-  padding: 10px 0;
+  margin-top: -25%;
+  margin-bottom: 50px;
+  padding: 5px 0;
   background-color: #4aaaa5;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
