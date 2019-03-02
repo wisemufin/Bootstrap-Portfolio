@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Matthew Trabold-Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Matthew Trabold-About</title>
 </head>
 <body>
-    
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <h1 class="navbar-brand mb-0 h1" id="brand">Matthew Trabold</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" id="flex-adjust">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+  <!-- This starts the bootstrap grid -->
+  <div class="container-fluid">
+    <!-- This row contains the header about me and it's border -->
+    <div class="row">
+      <div class="col-md-10 col-sm-12 .col-10 body-section">
+        <h1 id="about-me">Contact Me</h1>
+        <div class="row">
+          <div class="col-sm-8 .col-8">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="FormControlInput1" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email Address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="form-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &#9400;</p>
+    </div>
+  </footer>
 </body>
 </html>

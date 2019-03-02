@@ -20,7 +20,7 @@ body {
 /* Navbar Styling */
 .navbar-brand {
     margin-left: 5%;
-    background-color: #4aaaa5;
+    background-color: #00B1FF;
     color: white;
     padding: 20px;
 }
@@ -92,7 +92,7 @@ body > .container-fluid {
 
 #about-me {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
+  color: #00B1FF;
   padding-bottom: 25px;
   border-bottom: 3px solid #DEDEDE;
   margin-bottom: 30px;
@@ -104,13 +104,50 @@ body > .container-fluid {
   bottom: 0;
   width: 100%;
   height: 88px;
-  background-color: #666666;
+  background-color: #002C40;
   text-align: center;
   line-height: 80px;
   color: white;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #00B1FF;
 }
 
 .footer > .container > p {
   margin: 0;
+}
+
+/* Portfolio CSS */
+.grid-images, .body-section {
+  background-color: white;
+  padding: 2% 5%;
+}
+
+.grid-images img {
+  width: 100%;
+  position: relative;
+}
+
+.image-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: -20%;
+  margin-bottom: 50px;
+  padding: 15px 0;
+  background-color: #00B1FF;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.image-row {
+  margin-bottom: 20px;
+}
+
+.frame {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* Contact Form Styling */
+#form-button {
+  background-color: #00B1FF;
 }
