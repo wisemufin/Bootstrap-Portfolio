@@ -55,10 +55,6 @@ body {
   left: 0;
 }
 
-#navbarNav {
-    /* margin-right: 5%; */
-}
-
 .navbar-toggler {
     margin-right: 3%;
 }
@@ -78,24 +74,59 @@ body > .container-fluid {
   height: 100%; */
 }
 
-.margin-adjustment {
-  margin: 0 auto;
-}
-
-
-
-.rounded {
-  width: 30%;
-  margin-right: 20px;
-  max-width: 200px;
-}
-
 #about-me {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #00B1FF;
   padding-bottom: 25px;
   border-bottom: 3px solid #DEDEDE;
   margin-bottom: 30px;
+}
+
+.aboutMeSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutMeSection p {
+  width: 60%;
+}
+
+.profile-content {
+  width: 30%;
+  max-width: 280px;
+  display: flex;
+  margin-right: 30px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+.profile-content h3 {
+  padding: 10px;
+  color: white;
+  background-color: #00B1FF;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.profile-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.profile-links a {
+  display: block;
+  font-size: 1.25rem;
+}
+
+#profile-picture {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
 /* Footer Styling */
